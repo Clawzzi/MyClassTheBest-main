@@ -1,0 +1,75 @@
+body {
+    text-align: center;
+    background-color: rgb(206, 205, 205);
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.student {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+    width: 200px;
+    height: 300px;
+    margin-top: 1px;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+}
+
+.student img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;   
+}
+
+.student:hover {
+    opacity: 0.5;
+    margin-top: -30px;
+    background-color: rgb(255, 255, 255);
+    background: linear-gradient(45deg,
+            #ffff00, #00ff00, #0099ff, #001aff, #a200ff, #ff0055, #ff0000,
+            #ff0055, #ff0000, #ffff00, #00ff00, #0099ff, #001aff, #a200ff);
+            background-size: 300%;
+    animation: border 12s linear infinite;
+}
+
+
+
+.menu img {
+    width: 200px;
+    margin: 20px;
+    transition: transform 0.3s ease;
+}
+
+.menu img:hover {
+    opacity: 0.4;
+    transform: scale(1.1) rotate(5deg);
+}
+
+.student:active {
+    transition: 0.1s all;
+    margin-top: -100px;
+}
+
+.student::after {
+    filter: blur(50px);
+}
+
+@keyframes border {
+
+    0%,
+    100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 300%;
+    }
+}
