@@ -4,6 +4,14 @@ body {
     font-family: "Bebas Neue", sans-serif;
 }
 
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #000000;
+    font-size: 3em;
+}
+
+
 .student {
     background-color: #fff;
     padding: 20px;
