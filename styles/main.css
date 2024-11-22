@@ -78,6 +78,14 @@ h2 {
 }
 
 .diamond img{
-    width: 70px;
-    height: 50px;
+    width: 60px;
+    height: 40px;
+}
+
+.diamond {
+    color: gold; /* Золотий колір */
+    font-size: 4em; /* Розмір зірочки */
+    position: absolute; /* Абсолютне позиціювання */
+    top: 240px;
+    right: 2px;
 }
